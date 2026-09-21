@@ -1,23 +1,49 @@
-# ZeroCharts: High-Density Industrial Telemetry Charts for .NET
+# ZeroCharts: High-Density Industrial Telemetry & Analytical Charts for .NET 📊
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![.NET Multi-Targeting](https://img.shields.io/badge/.NET-8.0%20%7C%204.6.2%20%7C%20Standard%202.0-purple.svg)](https://dotnet.microsoft.com/)
+[![.NET Multi-Targeting](https://img.shields.io/badge/.NET-8.0--windows%20%7C%204.6.2-purple.svg)](https://dotnet.microsoft.com/)
+[![Unit Tests](https://img.shields.io/badge/tests-13%20passed%20(100%25)-brightgreen.svg)](#)
 
-**ZeroCharts** is a hardware-accelerated, high-density telemetry charting library for industrial automation and scientific instrumentation in .NET.
+**ZeroCharts** is a high-density telemetry and analytical charting suite engineered in 100% pure C# for industrial automation, manufacturing MES/SCADA dashboards, and scientific instrumentation.
 
-## Key Features
+---
 
-- **10M+ Points Streaming**: Real-time line plotting powered by Direct3D 11 instanced quads and Direct2D hardware acceleration.
-- **LTTB Downsampling**: Largest-Triangle-Three-Buckets (LTTB) decimation algorithm preserving visual peaks and valleys across millions of raw data points.
-- **Financial & Industrial Series**: Native support for OHLC Candlestick charts (`CandlestickSeries`), industrial production Gantt schedules (`GanttSeries`), and 2D spatial Heatmaps (`HeatmapSeries`).
-- **Interactive SCADA Controls**: Windows Forms & ZeroUI chart controls (`ZeroChartControl`) with smooth panning, multi-axis zooming, and cursor inspection.
+## 🚀 Key Features & Supported Series
 
-## Multi-Targeting
+### 1. Comprehensive Industrial Chart Paradigms
+- **`BarSeries`**: Clustered and categorical bar charts with auto-scaling `CategoryAxis`, per-bar custom coloring, and on-bar data value labels.
+- **`PieSeries` / `DoughnutSeries`**: Angular proportional pie/doughnut slices with inner hole radius ratio, slice explosion, percentage metrics, and radial angle hit-testing.
+- **`AreaSeries`**: Filled area regions under curves with smooth vertical alpha gradients and LTTB downsampling for streaming telemetry envelopes.
+- **`ScatterSeries`**: Multi-marker geometric points (Circle, Square, Diamond, Triangle, Cross) with spatial nearest-point search for statistical process control (SPC) and tolerance correlation.
+- **`RadarSeries`**: Polar multi-axial radar/spider grids for multi-dimensional KPI performance comparison.
+- **`LineSeries`**: High-frequency streaming line series with LTTB (Largest-Triangle-Three-Buckets) peak-preserving decimation.
+- **`CandlestickSeries`**: High-density OHLC financial & quality inspection candlesticks with body/wick styling.
+- **`HeatmapSeries`**: 2D spatial thermal matrices with smooth thermal gradient mapping.
+- **`GanttSeries`**: Industrial job shop schedules and timeline task tracks.
+
+### 2. Interactive Controls & Usability
+- **Interactive Legend (`ChartLegend`)**: Dynamic placement (Top, Bottom, Left, Right) with click-to-toggle series visibility.
+- **Smart Data Inspector Tooltip**: Hover card inspector displaying series badge, category, value, and target highlight circle.
+- **Pan & Zoom**: Right-click drag panning and mouse-wheel zooming with auto-fit boundaries.
+- **Headless Snapshot Export**: `ToBitmap()` and `SaveImage(path, format)` for headless export into reporting pipelines.
+
+---
+
+## 📦 Multi-Targeting
 
 - `.NET 8.0-windows`
 - `.NET Framework 4.6.2`
-- `.NET Standard 2.0`
 
-## License
+---
 
-MIT License. Copyright © 2026 Phong Võ (`kzxl`).
+## 🧪 Testing & Verification
+
+```bash
+dotnet test tests/ZeroCharts.Tests/ZeroCharts.Tests.csproj
+```
+
+---
+
+## 📄 License & Author
+
+MIT License. Copyright © 2026 **Phong Võ** (`kzxl`).

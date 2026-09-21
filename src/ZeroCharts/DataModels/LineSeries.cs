@@ -32,6 +32,7 @@ namespace ZeroCharts.DataModels
         private readonly List<ChartPoint> _points = new List<ChartPoint>();
 
         public string Title { get; set; }
+        public string Name { get => Title; set => Title = value; }
         public Color StrokeColor { get; set; } = Color.FromArgb(0, 168, 255); // Cyber Sapphire
         public float StrokeThickness { get; set; } = 1.5f;
         public bool IsVisible { get; set; } = true;
