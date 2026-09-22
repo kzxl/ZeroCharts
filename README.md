@@ -3,9 +3,21 @@
 [![ZeroPlatform Tier](https://img.shields.io/badge/ZeroPlatform-Tier%204%20(Graphics%20%26%20Spatial%203D)-ea580c.svg)](https://github.com/kzxl/ZeroPlatform)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![.NET Multi-Targeting](https://img.shields.io/badge/.NET-8.0--windows%20%7C%204.6.2-purple.svg)](https://dotnet.microsoft.com/)
+[![NuGet Version](https://img.shields.io/badge/NuGet-1.2.0-blue.svg)](https://www.nuget.org/packages/ZeroCharts)
 [![Unit Tests](https://img.shields.io/badge/tests-13%20passed%20(100%25)-brightgreen.svg)](#)
 
 **ZeroCharts** is a high-density telemetry and analytical charting suite engineered in 100% pure C# for industrial automation, manufacturing MES/SCADA dashboards, and scientific instrumentation.
+
+Operating as a specialized visual analytics member of **Tier 4 (Graphics & Spatial 3D)** within the **[ZeroPlatform](https://github.com/kzxl/ZeroPlatform)** ecosystem.
+
+---
+
+## 🏛️ Ecosystem Architectural Alignment
+
+- **Architectural Tier**: **Tier 4 (Graphics & Spatial 3D)**
+- **Permitted Upstream Dependencies**: Tier 0 (`ZeroPrimitives`, `ZeroConcurrency`), Tier 1 (`ZeroCompute`, `ZeroTensor`), Tier 2 (`ZeroData`, `ZeroStorage`), Tier 4 (`ZeroGraphics`)
+- **Downstream Consumers**: Tier 5 (`ZeroUI`, `ZeroReports`, `ZeroPipeline`)
+- **Core Guarantees**: Pure Direct2D / DirectX acceleration, LTTB decimation, sub-millisecond refresh, zero upward dependency.
 
 ---
 
