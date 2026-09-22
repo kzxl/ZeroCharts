@@ -1,5 +1,6 @@
 # ZeroCharts: High-Density Industrial Telemetry & Analytical Charts for .NET 📊
 
+[![ZeroPlatform Tier](https://img.shields.io/badge/ZeroPlatform-Tier%204%20(Graphics%20%26%20Spatial%203D)-ea580c.svg)](https://github.com/kzxl/ZeroPlatform)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![.NET Multi-Targeting](https://img.shields.io/badge/.NET-8.0--windows%20%7C%204.6.2-purple.svg)](https://dotnet.microsoft.com/)
 [![Unit Tests](https://img.shields.io/badge/tests-13%20passed%20(100%25)-brightgreen.svg)](#)
