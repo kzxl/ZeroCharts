@@ -1,3 +1,13 @@
+> [!IMPORTANT]
+> ### 🏛️ REPOSITORY CONSOLIDATION NOTICE
+> **This repository has been officially consolidated into the unified [ZeroPlatform Sovereign Monorepo](https://github.com/kzxl/ZeroPlatform).**  
+> All active development, issues, pull requests, and new releases take place in the central repository:  
+> 👉 **[kzxl/ZeroPlatform/tree/master/ZeroCharts](https://github.com/kzxl/ZeroPlatform/tree/master/ZeroCharts)**
+> 
+> *This repository is archived and preserved for historical reference and permanent package links.*
+
+---
+
 # ZeroCharts: High-Density Industrial Telemetry & Analytical Charts for .NET 📊
 
 [![ZeroPlatform Tier](https://img.shields.io/badge/ZeroPlatform-Tier%204%20(Graphics%20%26%20Spatial%203D)-ea580c.svg)](https://github.com/kzxl/ZeroPlatform)
